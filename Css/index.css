@@ -113,6 +113,10 @@ header.home nav .logo img {
   width: 20%;
 }
 
+header.home nav a:hover {
+  color: #8075b9;
+}
+
 header.home nav ul.nav-ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,6 +136,12 @@ header.home nav ul.nav-ul li a {
   color: #4c535d;
   font-weight: 700;
   letter-spacing: 1px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+header.home nav ul.nav-ul li a:hover {
+  color: #8075b9;
 }
 
 header.home nav .btn.trial {
@@ -230,8 +240,8 @@ button.sidebar-toggle {
           transform: translateX(-100%);
   right: 0;
   left: 0;
-  -webkit-transition: .8s;
-  transition: .8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 .active-mobile-slider {
@@ -504,7 +514,7 @@ h2.brandig-style {
   border-radius: 0.5rem;
   font-size: 2rem;
   margin-bottom: 1rem;
-  padding-top: .3rem;
+  padding-top: 0.3rem;
 }
 
 .innovate-button {
@@ -599,7 +609,7 @@ section.section-annaunce-always .client-count-box {
 
 .boxes-wrapper .each-single-box {
   width: 21rem;
-  padding: 0rem 2rem .5rem;
+  padding: 0rem 2rem 0.5rem;
   background: #dda0ddb0;
   border-radius: 1rem;
   color: white;
@@ -713,7 +723,7 @@ section.section-annaunce-always .client-count-box {
   width: 11rem;
   margin-left: 4.7rem;
   font-size: 1rem !important;
-  padding: .5rem 1.3rem;
+  padding: 0.5rem 1.3rem;
 }
 
 section {
@@ -879,7 +889,7 @@ p.information {
   transition: all 0.8s !important;
   overflow: hidden;
   color: #8075b9;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .quision-setor .quistion-s-box .quistion-apparence {
